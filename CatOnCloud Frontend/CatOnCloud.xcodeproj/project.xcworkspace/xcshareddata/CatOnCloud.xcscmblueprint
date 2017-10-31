@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D66C62B0BA45A8882D83D683C9DC7A01E94E3681",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D66C62B0BA45A8882D83D683C9DC7A01E94E3681" : 9223372036854775807,
+    "67620B5EFA902936DF04070AF595B76AB0333747" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D882B29-1F73-49C9-AF98-EBB1BE826484",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D66C62B0BA45A8882D83D683C9DC7A01E94E3681" : "CatOnCloud\/",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "CatOnCloud\/CatOnCloud\/Alamofire\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CatOnCloud",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CatOnCloud\/CatOnCloud.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HengruiX\/CatOnCloud.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D66C62B0BA45A8882D83D683C9DC7A01E94E3681"
+    }
+  ]
+}

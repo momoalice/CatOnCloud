@@ -1,0 +1,6 @@
+framework module Pods_CatOnCloud {
+  umbrella header "Pods-CatOnCloud-umbrella.h"
+
+  export *
+  module * { export * }
+}

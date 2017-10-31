@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2017-10-21 01:21:39
+  likes: 1
+  imageURLS: MyText
+  videoURLS: MyText
+
+two:
+  time: 2017-10-21 01:21:39
+  likes: 1
+  imageURLS: MyText
+  videoURLS: MyText

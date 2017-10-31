@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001244011F9CDAF0002A2846 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001243F01F9CDAC4002A2846 /* SwiftyJSON.framework */; };
+		001244021F9CDAF0002A2846 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 001243F01F9CDAC4002A2846 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		001244051F9CDAF4002A2846 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001243BE1F9CDAB9002A2846 /* Alamofire.framework */; };
+		001244061F9CDAF4002A2846 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 001243BE1F9CDAB9002A2846 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0012440A1F9CDEFB002A2846 /* AdoptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001244091F9CDEFB002A2846 /* AdoptController.swift */; };
+		0012440C1F9CDF84002A2846 /* AdoptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012440B1F9CDF84002A2846 /* AdoptCell.swift */; };
+		0012440E1F9CE0E0002A2846 /* AdoptNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012440D1F9CE0E0002A2846 /* AdoptNewController.swift */; };
+		001244101F9CE1F5002A2846 /* AdoptNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012440F1F9CE1F5002A2846 /* AdoptNewCell.swift */; };
+		D3B392CC0EDA85AE07108BDD /* Pods_CatOnCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9292330D0B2528947568DF /* Pods_CatOnCloudTests.framework */; };
+		F811251C1F9C62A4007E649B /* PostUploadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811251B1F9C62A4007E649B /* PostUploadCell.swift */; };
+		F81125EB1F9CD5A0007E649B /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F81125EE1F9CD5A3007E649B /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F870522F1F9BB45B00BCE1E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870522E1F9BB45B00BCE1E3 /* LoginViewController.swift */; };
+		F8E426F41F9BC7F90054D4B3 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E426F31F9BC7F90054D4B3 /* ImageHelper.swift */; };
+		F8E426FB1F9BE1910054D4B3 /* CatPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E426FA1F9BE1910054D4B3 /* CatPreviewTableViewCell.swift */; };
+		F8E4270A1F9C15890054D4B3 /* SubCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427001F9C15890054D4B3 /* SubCatViewController.swift */; };
+		F8E4270B1F9C15890054D4B3 /* SubCatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427011F9C15890054D4B3 /* SubCatTableViewCell.swift */; };
+		F8E4270C1F9C15890054D4B3 /* SubCatTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427021F9C15890054D4B3 /* SubCatTableTableViewController.swift */; };
+		F8E4270E1F9C15890054D4B3 /* MyCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427041F9C15890054D4B3 /* MyCatViewController.swift */; };
+		F8E427101F9C15890054D4B3 /* MyCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427061F9C15890054D4B3 /* MyCatTableViewController.swift */; };
+		F8E427111F9C15890054D4B3 /* MyCatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427071F9C15890054D4B3 /* MyCatTableViewCell.swift */; };
+		F8E427121F9C15890054D4B3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F8E427081F9C15890054D4B3 /* Base.lproj */; };
+		F8E427131F9C15890054D4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E427091F9C15890054D4B3 /* Assets.xcassets */; };
+		F8E427171F9C1EF50054D4B3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427161F9C1EF50054D4B3 /* Post.swift */; };
+		F8E427191F9C24CE0054D4B3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427181F9C24CE0054D4B3 /* PostCell.swift */; };
+		F8E4271B1F9C40E90054D4B3 /* PostPicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4271A1F9C40E90054D4B3 /* PostPicCell.swift */; };
+		F8E4271D1F9C4D220054D4B3 /* MyPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4271C1F9C4D220054D4B3 /* MyPostCell.swift */; };
+		F8E4271F1F9C4DA00054D4B3 /* MyPostPicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4271E1F9C4DA00054D4B3 /* MyPostPicCell.swift */; };
+		F8E427211F9C53360054D4B3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E427201F9C53360054D4B3 /* PostViewController.swift */; };
+		FC429E0D1F9B039400ED914F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC429E0C1F9B039400ED914F /* AppDelegate.swift */; };
+		FC429E141F9B039400ED914F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC429E121F9B039400ED914F /* Main.storyboard */; };
+		FC429E191F9B039400ED914F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC429E171F9B039400ED914F /* LaunchScreen.storyboard */; };
+		FC429E241F9B039400ED914F /* CatOnCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC429E231F9B039400ED914F /* CatOnCloudTests.swift */; };
+		FC429E341F9B092400ED914F /* AllCatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC429E321F9B092400ED914F /* AllCatTableViewCell.swift */; };
+		FC429E3C1F9B0C0900ED914F /* AllCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC429E3A1F9B0C0900ED914F /* AllCatTableViewController.swift */; };
+		FC429E3F1F9B0DC400ED914F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC429E3E1F9B0DC400ED914F /* Cat.swift */; };
+		FCFA68301F9B5BE100515B21 /* AllCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA682F1F9B5BE100515B21 /* AllCatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001243BD1F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		001243BF1F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		001243C11F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		001243C31F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		001243C51F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		001243C71F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		001243C91F9CDAB9002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		001243EF1F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		001243F11F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		001243F31F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS";
+		};
+		001243F51F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS Tests";
+		};
+		001243F71F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		001243F91F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		001243FB1F9CDAC4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+		001243FD1F9CDAE3002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		001243FF1F9CDAE6002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		001244031F9CDAF0002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		001244071F9CDAF4002A2846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		FC429E201F9B039400ED914F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC429E011F9B039400ED914F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC429E081F9B039400ED914F;
+			remoteInfo = CatOnCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F81125EC1F9CD5A0007E649B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F81125EE1F9CD5A3007E649B /* (null) in Embed Frameworks */,
+				F81125EB1F9CD5A0007E649B /* (null) in Embed Frameworks */,
+				001244021F9CDAF0002A2846 /* SwiftyJSON.framework in Embed Frameworks */,
+				001244061F9CDAF4002A2846 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = SOURCE_ROOT; };
+		001244091F9CDEFB002A2846 /* AdoptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptController.swift; sourceTree = "<group>"; };
+		0012440B1F9CDF84002A2846 /* AdoptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptCell.swift; sourceTree = "<group>"; };
+		0012440D1F9CE0E0002A2846 /* AdoptNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptNewController.swift; sourceTree = "<group>"; };
+		0012440F1F9CE1F5002A2846 /* AdoptNewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptNewCell.swift; sourceTree = "<group>"; };
+		0E9292330D0B2528947568DF /* Pods_CatOnCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatOnCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC7538FFFE722ED2C4BE4C5 /* Pods_CatOnCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatOnCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FCA4257D9D506D987B660E /* Pods-CatOnCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCloudTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCloudTests/Pods-CatOnCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB600216144E38116106620 /* Pods-CatOnCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCloud/Pods-CatOnCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		DE78FF22936598F31DC461DC /* Pods-CatOnCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCloud/Pods-CatOnCloud.release.xcconfig"; sourceTree = "<group>"; };
+		E4FDAA77A1DE72E2E3F28836 /* Pods-CatOnCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCloudTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCloudTests/Pods-CatOnCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+		F811251B1F9C62A4007E649B /* PostUploadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUploadCell.swift; sourceTree = "<group>"; };
+		F870522E1F9BB45B00BCE1E3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8E426F31F9BC7F90054D4B3 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		F8E426FA1F9BE1910054D4B3 /* CatPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatPreviewTableViewCell.swift; sourceTree = "<group>"; };
+		F8E427001F9C15890054D4B3 /* SubCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCatViewController.swift; sourceTree = "<group>"; };
+		F8E427011F9C15890054D4B3 /* SubCatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCatTableViewCell.swift; sourceTree = "<group>"; };
+		F8E427021F9C15890054D4B3 /* SubCatTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCatTableTableViewController.swift; sourceTree = "<group>"; };
+		F8E427041F9C15890054D4B3 /* MyCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCatViewController.swift; sourceTree = "<group>"; };
+		F8E427061F9C15890054D4B3 /* MyCatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCatTableViewController.swift; sourceTree = "<group>"; };
+		F8E427071F9C15890054D4B3 /* MyCatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCatTableViewCell.swift; sourceTree = "<group>"; };
+		F8E427081F9C15890054D4B3 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		F8E427091F9C15890054D4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E427161F9C1EF50054D4B3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F8E427181F9C24CE0054D4B3 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F8E4271A1F9C40E90054D4B3 /* PostPicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPicCell.swift; sourceTree = "<group>"; };
+		F8E4271C1F9C4D220054D4B3 /* MyPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostCell.swift; sourceTree = "<group>"; };
+		F8E4271E1F9C4DA00054D4B3 /* MyPostPicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostPicCell.swift; sourceTree = "<group>"; };
+		F8E427201F9C53360054D4B3 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		FC429E091F9B039400ED914F /* CatOnCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatOnCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC429E0C1F9B039400ED914F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC429E131F9B039400ED914F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC429E151F9B039400ED914F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC429E181F9B039400ED914F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC429E1A1F9B039400ED914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC429E1F1F9B039400ED914F /* CatOnCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatOnCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC429E231F9B039400ED914F /* CatOnCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatOnCloudTests.swift; sourceTree = "<group>"; };
+		FC429E251F9B039400ED914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC429E321F9B092400ED914F /* AllCatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCatTableViewCell.swift; sourceTree = "<group>"; };
+		FC429E3A1F9B0C0900ED914F /* AllCatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllCatTableViewController.swift; path = ../AllCatTableViewController.swift; sourceTree = "<group>"; };
+		FC429E3E1F9B0DC400ED914F /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		FCFA682F1F9B5BE100515B21 /* AllCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC429E061F9B039400ED914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001244011F9CDAF0002A2846 /* SwiftyJSON.framework in Frameworks */,
+				001244051F9CDAF4002A2846 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC429E1C1F9B039400ED914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B392CC0EDA85AE07108BDD /* Pods_CatOnCloudTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001243B31F9CDAB9002A2846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001243BE1F9CDAB9002A2846 /* Alamofire.framework */,
+				001243C01F9CDAB9002A2846 /* Alamofire iOS Tests.xctest */,
+				001243C21F9CDAB9002A2846 /* Alamofire.framework */,
+				001243C41F9CDAB9002A2846 /* Alamofire macOS Tests.xctest */,
+				001243C61F9CDAB9002A2846 /* Alamofire.framework */,
+				001243C81F9CDAB9002A2846 /* Alamofire tvOS Tests.xctest */,
+				001243CA1F9CDAB9002A2846 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001243E51F9CDAC4002A2846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001243F01F9CDAC4002A2846 /* SwiftyJSON.framework */,
+				001243F21F9CDAC4002A2846 /* SwiftyJSON iOS Tests.xctest */,
+				001243F41F9CDAC4002A2846 /* SwiftyJSON.framework */,
+				001243F61F9CDAC4002A2846 /* SwiftyJSON macOS Tests.xctest */,
+				001243F81F9CDAC4002A2846 /* SwiftyJSON.framework */,
+				001243FA1F9CDAC4002A2846 /* SwiftyJSON.framework */,
+				001243FC1F9CDAC4002A2846 /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58A31022A22C13EBB646FED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDB600216144E38116106620 /* Pods-CatOnCloud.debug.xcconfig */,
+				DE78FF22936598F31DC461DC /* Pods-CatOnCloud.release.xcconfig */,
+				81FCA4257D9D506D987B660E /* Pods-CatOnCloudTests.debug.xcconfig */,
+				E4FDAA77A1DE72E2E3F28836 /* Pods-CatOnCloudTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABF349A9B4D44C6C57A26A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7538FFFE722ED2C4BE4C5 /* Pods_CatOnCloud.framework */,
+				0E9292330D0B2528947568DF /* Pods_CatOnCloudTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F811251A1F9C627E007E649B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				F8E427201F9C53360054D4B3 /* PostViewController.swift */,
+				F811251B1F9C62A4007E649B /* PostUploadCell.swift */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		F8E426FC1F9BFBB60054D4B3 /* Cat Explore */ = {
+			isa = PBXGroup;
+			children = (
+				FC429E3A1F9B0C0900ED914F /* AllCatTableViewController.swift */,
+				FC429E321F9B092400ED914F /* AllCatTableViewCell.swift */,
+				FCFA682F1F9B5BE100515B21 /* AllCatViewController.swift */,
+				F8E426FA1F9BE1910054D4B3 /* CatPreviewTableViewCell.swift */,
+			);
+			name = "Cat Explore";
+			sourceTree = "<group>";
+		};
+		F8E426FD1F9BFBD60054D4B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F870522E1F9BB45B00BCE1E3 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F8E426FE1F9BFBE60054D4B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC429E3E1F9B0DC400ED914F /* Cat.swift */,
+				F8E427161F9C1EF50054D4B3 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F8E426FF1F9BFBF20054D4B3 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F8E426F31F9BC7F90054D4B3 /* ImageHelper.swift */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		F8E427141F9C15F30054D4B3 /* subscribed */ = {
+			isa = PBXGroup;
+			children = (
+				F8E427001F9C15890054D4B3 /* SubCatViewController.swift */,
+				F8E427011F9C15890054D4B3 /* SubCatTableViewCell.swift */,
+				F8E427021F9C15890054D4B3 /* SubCatTableTableViewController.swift */,
+				F8E427181F9C24CE0054D4B3 /* PostCell.swift */,
+				F8E4271A1F9C40E90054D4B3 /* PostPicCell.swift */,
+			);
+			name = subscribed;
+			sourceTree = "<group>";
+		};
+		F8E427151F9C16410054D4B3 /* owned */ = {
+			isa = PBXGroup;
+			children = (
+				F8E427041F9C15890054D4B3 /* MyCatViewController.swift */,
+				F8E427061F9C15890054D4B3 /* MyCatTableViewController.swift */,
+				F8E427071F9C15890054D4B3 /* MyCatTableViewCell.swift */,
+				F8E4271C1F9C4D220054D4B3 /* MyPostCell.swift */,
+				F8E4271E1F9C4DA00054D4B3 /* MyPostPicCell.swift */,
+			);
+			name = owned;
+			sourceTree = "<group>";
+		};
+		FC429E001F9B039400ED914F = {
+			isa = PBXGroup;
+			children = (
+				FC429E0B1F9B039400ED914F /* CatOnCloud */,
+				FC429E221F9B039400ED914F /* CatOnCloudTests */,
+				FC429E0A1F9B039400ED914F /* Products */,
+				58A31022A22C13EBB646FED6 /* Pods */,
+				ABF349A9B4D44C6C57A26A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC429E0A1F9B039400ED914F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC429E091F9B039400ED914F /* CatOnCloud.app */,
+				FC429E1F1F9B039400ED914F /* CatOnCloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC429E0B1F9B039400ED914F /* CatOnCloud */ = {
+			isa = PBXGroup;
+			children = (
+				001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */,
+				001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */,
+				F811251A1F9C627E007E649B /* Post */,
+				F8E427151F9C16410054D4B3 /* owned */,
+				F8E427141F9C15F30054D4B3 /* subscribed */,
+				F8E427081F9C15890054D4B3 /* Base.lproj */,
+				F8E427091F9C15890054D4B3 /* Assets.xcassets */,
+				F8E426FF1F9BFBF20054D4B3 /* Media */,
+				F8E426FE1F9BFBE60054D4B3 /* Model */,
+				F8E426FD1F9BFBD60054D4B3 /* Login */,
+				F8E426FC1F9BFBB60054D4B3 /* Cat Explore */,
+				FC429E0C1F9B039400ED914F /* AppDelegate.swift */,
+				FC429E121F9B039400ED914F /* Main.storyboard */,
+				FC429E151F9B039400ED914F /* Assets.xcassets */,
+				FC429E171F9B039400ED914F /* LaunchScreen.storyboard */,
+				FC429E1A1F9B039400ED914F /* Info.plist */,
+				001244091F9CDEFB002A2846 /* AdoptController.swift */,
+				0012440B1F9CDF84002A2846 /* AdoptCell.swift */,
+				0012440D1F9CE0E0002A2846 /* AdoptNewController.swift */,
+				0012440F1F9CE1F5002A2846 /* AdoptNewCell.swift */,
+			);
+			path = CatOnCloud;
+			sourceTree = "<group>";
+		};
+		FC429E221F9B039400ED914F /* CatOnCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC429E231F9B039400ED914F /* CatOnCloudTests.swift */,
+				FC429E251F9B039400ED914F /* Info.plist */,
+			);
+			path = CatOnCloudTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC429E081F9B039400ED914F /* CatOnCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC429E281F9B039400ED914F /* Build configuration list for PBXNativeTarget "CatOnCloud" */;
+			buildPhases = (
+				A497AE0389F234EC67E580EB /* [CP] Check Pods Manifest.lock */,
+				FC429E051F9B039400ED914F /* Sources */,
+				FC429E061F9B039400ED914F /* Frameworks */,
+				FC429E071F9B039400ED914F /* Resources */,
+				F81125EC1F9CD5A0007E649B /* Embed Frameworks */,
+				11FCA25A688FAE47AB4616B8 /* [CP] Embed Pods Frameworks */,
+				8E03161DA316DB46B1538428 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001244001F9CDAE6002A2846 /* PBXTargetDependency */,
+				001243FE1F9CDAE3002A2846 /* PBXTargetDependency */,
+				001244041F9CDAF0002A2846 /* PBXTargetDependency */,
+				001244081F9CDAF4002A2846 /* PBXTargetDependency */,
+			);
+			name = CatOnCloud;
+			productName = CatOnCloud;
+			productReference = FC429E091F9B039400ED914F /* CatOnCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC429E1E1F9B039400ED914F /* CatOnCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC429E2B1F9B039400ED914F /* Build configuration list for PBXNativeTarget "CatOnCloudTests" */;
+			buildPhases = (
+				E463009B3EBC127D0DDCC626 /* [CP] Check Pods Manifest.lock */,
+				FC429E1B1F9B039400ED914F /* Sources */,
+				FC429E1C1F9B039400ED914F /* Frameworks */,
+				FC429E1D1F9B039400ED914F /* Resources */,
+				502BC374F7FF35E19162677F /* [CP] Embed Pods Frameworks */,
+				36A3D00B39A4A1FE9E37A3FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC429E211F9B039400ED914F /* PBXTargetDependency */,
+			);
+			name = CatOnCloudTests;
+			productName = CatOnCloudTests;
+			productReference = FC429E1F1F9B039400ED914F /* CatOnCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC429E011F9B039400ED914F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = irene;
+				TargetAttributes = {
+					FC429E081F9B039400ED914F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZBH4QG3N26;
+						ProvisioningStyle = Automatic;
+					};
+					FC429E1E1F9B039400ED914F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC429E081F9B039400ED914F;
+					};
+				};
+			};
+			buildConfigurationList = FC429E041F9B039400ED914F /* Build configuration list for PBXProject "CatOnCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC429E001F9B039400ED914F;
+			productRefGroup = FC429E0A1F9B039400ED914F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 001243B31F9CDAB9002A2846 /* Products */;
+					ProjectRef = 001243B21F9CDAB9002A2846 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 001243E51F9CDAC4002A2846 /* Products */;
+					ProjectRef = 001243E41F9CDAC4002A2846 /* SwiftyJSON.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FC429E081F9B039400ED914F /* CatOnCloud */,
+				FC429E1E1F9B039400ED914F /* CatOnCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		001243BE1F9CDAB9002A2846 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 001243BD1F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243C01F9CDAB9002A2846 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 001243BF1F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243C21F9CDAB9002A2846 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 001243C11F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243C41F9CDAB9002A2846 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 001243C31F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243C61F9CDAB9002A2846 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 001243C51F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243C81F9CDAB9002A2846 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 001243C71F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243CA1F9CDAB9002A2846 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 001243C91F9CDAB9002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243F01F9CDAC4002A2846 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 001243EF1F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243F21F9CDAC4002A2846 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 001243F11F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243F41F9CDAC4002A2846 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 001243F31F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243F61F9CDAC4002A2846 /* SwiftyJSON macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON macOS Tests.xctest";
+			remoteRef = 001243F51F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243F81F9CDAC4002A2846 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 001243F71F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243FA1F9CDAC4002A2846 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 001243F91F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001243FC1F9CDAC4002A2846 /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 001243FB1F9CDAC4002A2846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC429E071F9B039400ED914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC429E191F9B039400ED914F /* LaunchScreen.storyboard in Resources */,
+				F8E427131F9C15890054D4B3 /* Assets.xcassets in Resources */,
+				F8E427121F9C15890054D4B3 /* Base.lproj in Resources */,
+				FC429E141F9B039400ED914F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC429E1D1F9B039400ED914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FCA25A688FAE47AB4616B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatOnCloud/Pods-CatOnCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A3D00B39A4A1FE9E37A3FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatOnCloudTests/Pods-CatOnCloudTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502BC374F7FF35E19162677F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatOnCloudTests/Pods-CatOnCloudTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatOnCloudTests/Pods-CatOnCloudTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E03161DA316DB46B1538428 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatOnCloud/Pods-CatOnCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A497AE0389F234EC67E580EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatOnCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E463009B3EBC127D0DDCC626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatOnCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC429E051F9B039400ED914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F870522F1F9BB45B00BCE1E3 /* LoginViewController.swift in Sources */,
+				F8E4270C1F9C15890054D4B3 /* SubCatTableTableViewController.swift in Sources */,
+				F8E4270A1F9C15890054D4B3 /* SubCatViewController.swift in Sources */,
+				F8E4271B1F9C40E90054D4B3 /* PostPicCell.swift in Sources */,
+				F811251C1F9C62A4007E649B /* PostUploadCell.swift in Sources */,
+				F8E427211F9C53360054D4B3 /* PostViewController.swift in Sources */,
+				F8E427101F9C15890054D4B3 /* MyCatTableViewController.swift in Sources */,
+				0012440C1F9CDF84002A2846 /* AdoptCell.swift in Sources */,
+				F8E4271F1F9C4DA00054D4B3 /* MyPostPicCell.swift in Sources */,
+				0012440E1F9CE0E0002A2846 /* AdoptNewController.swift in Sources */,
+				F8E4271D1F9C4D220054D4B3 /* MyPostCell.swift in Sources */,
+				FC429E341F9B092400ED914F /* AllCatTableViewCell.swift in Sources */,
+				F8E4270B1F9C15890054D4B3 /* SubCatTableViewCell.swift in Sources */,
+				F8E4270E1F9C15890054D4B3 /* MyCatViewController.swift in Sources */,
+				FC429E3C1F9B0C0900ED914F /* AllCatTableViewController.swift in Sources */,
+				F8E427111F9C15890054D4B3 /* MyCatTableViewCell.swift in Sources */,
+				F8E427171F9C1EF50054D4B3 /* Post.swift in Sources */,
+				FC429E0D1F9B039400ED914F /* AppDelegate.swift in Sources */,
+				FCFA68301F9B5BE100515B21 /* AllCatViewController.swift in Sources */,
+				F8E426FB1F9BE1910054D4B3 /* CatPreviewTableViewCell.swift in Sources */,
+				0012440A1F9CDEFB002A2846 /* AdoptController.swift in Sources */,
+				001244101F9CE1F5002A2846 /* AdoptNewCell.swift in Sources */,
+				FC429E3F1F9B0DC400ED914F /* Cat.swift in Sources */,
+				F8E426F41F9BC7F90054D4B3 /* ImageHelper.swift in Sources */,
+				F8E427191F9C24CE0054D4B3 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC429E1B1F9B039400ED914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC429E241F9B039400ED914F /* CatOnCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001243FE1F9CDAE3002A2846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 001243FD1F9CDAE3002A2846 /* PBXContainerItemProxy */;
+		};
+		001244001F9CDAE6002A2846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 001243FF1F9CDAE6002A2846 /* PBXContainerItemProxy */;
+		};
+		001244041F9CDAF0002A2846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 001244031F9CDAF0002A2846 /* PBXContainerItemProxy */;
+		};
+		001244081F9CDAF4002A2846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 001244071F9CDAF4002A2846 /* PBXContainerItemProxy */;
+		};
+		FC429E211F9B039400ED914F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC429E081F9B039400ED914F /* CatOnCloud */;
+			targetProxy = FC429E201F9B039400ED914F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC429E121F9B039400ED914F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC429E131F9B039400ED914F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC429E171F9B039400ED914F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC429E181F9B039400ED914F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC429E261F9B039400ED914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC429E271F9B039400ED914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC429E291F9B039400ED914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB600216144E38116106620 /* Pods-CatOnCloud.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZBH4QG3N26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					$PODS_CONFIGURATION_BUILD_DIR/Alamofire,
+					$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON,
+				);
+				INFOPLIST_FILE = CatOnCloud/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CatOnCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				w = "";
+			};
+			name = Debug;
+		};
+		FC429E2A1F9B039400ED914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE78FF22936598F31DC461DC /* Pods-CatOnCloud.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZBH4QG3N26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					$PODS_CONFIGURATION_BUILD_DIR/Alamofire,
+					$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON,
+				);
+				INFOPLIST_FILE = CatOnCloud/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CatOnCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				w = "";
+			};
+			name = Release;
+		};
+		FC429E2C1F9B039400ED914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FCA4257D9D506D987B660E /* Pods-CatOnCloudTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatOnCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CatOnCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatOnCloud.app/CatOnCloud";
+			};
+			name = Debug;
+		};
+		FC429E2D1F9B039400ED914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FDAA77A1DE72E2E3F28836 /* Pods-CatOnCloudTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatOnCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CatOnCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatOnCloud.app/CatOnCloud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC429E041F9B039400ED914F /* Build configuration list for PBXProject "CatOnCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC429E261F9B039400ED914F /* Debug */,
+				FC429E271F9B039400ED914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC429E281F9B039400ED914F /* Build configuration list for PBXNativeTarget "CatOnCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC429E291F9B039400ED914F /* Debug */,
+				FC429E2A1F9B039400ED914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC429E2B1F9B039400ED914F /* Build configuration list for PBXNativeTarget "CatOnCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC429E2C1F9B039400ED914F /* Debug */,
+				FC429E2D1F9B039400ED914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC429E011F9B039400ED914F /* Project object */;
+}
